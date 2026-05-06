@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kas_app/pages/auth/splash_screen.dart';
+import 'package:kas_app/pages/auth/reva_splash_screen.dart';
 
 void main() {
   runApp(Kas());

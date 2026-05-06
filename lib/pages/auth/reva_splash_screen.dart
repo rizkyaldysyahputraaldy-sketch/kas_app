@@ -30,7 +30,7 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            SizedBox(height: 150),
+            SizedBox(height: 100),
             Icon(
               Icons.account_balance_wallet_outlined,
               size: 95,
@@ -44,7 +44,24 @@ class _SplashScreenState extends State<SplashScreen> {
                 color: Colors.black,
               ),
             ),
-            SizedBox(height: 300),
+            SizedBox(height: 5),
+            Text(
+              "Pemasukan Dan",
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 20,
+                color: Colors.black,
+              ),
+            ),
+            Text(
+              "Pengeluaran Dengan Mudah",
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 20,
+                color: Colors.black,
+              ),
+            ),
+            SizedBox(height: 265),
           ],
         ),
       ),
